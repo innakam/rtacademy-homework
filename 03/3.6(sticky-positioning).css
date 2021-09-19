@@ -1,0 +1,11 @@
+p {
+    background-color: #cfe8dc;
+    padding: 1em;
+    margin: 0.5em 0 0 0;
+}
+.positioned {
+    background-color: #ff546880; /* тут останній "80" - це альфа-канал прозорості в 50% або 0.5 */
+    position: sticky;
+    top: 0em;
+    left: 0em;
+}

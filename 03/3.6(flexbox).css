@@ -1,0 +1,8 @@
+.wrapper div {
+    background-color: #cfe8dc;
+    padding: 1em;
+    margin: 0.1em;
+}
+.wrapper {
+    display: flex;
+}

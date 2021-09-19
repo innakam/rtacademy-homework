@@ -1,0 +1,111 @@
+header, main, footer{
+    width:60em;
+    margin: 0 auto;
+}
+
+
+.header div {
+    background-color: #ffffff;
+    padding: 1em;
+    margin: 0.1em;
+    flex: 1 0 auto; /* <flex-grow> <flex-shrink> <flex-basis> */
+    
+}
+.header {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    
+}
+
+.nav1 {
+    display: flex;
+}
+
+.nav li {
+    background-color: #ffffff;
+    padding: 1em 2em;
+    list-style:none;
+    juctify-content:center;
+    
+}
+.nav1 li {
+    background-color: #ffffff;
+    padding: 1em 2em;
+    list-style:none;
+    
+}
+
+.nav li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.nav1 li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+
+.MAYSA_Spector{
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+font-weight:bolder;
+font-style:italic;
+padding:1em;
+
+}
+
+.I {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding:0 0 10em 0;
+    }
+
+.post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+div.article{
+    width:49%;
+}
+div.article img {
+    width:100%;
+}
+/*
+.p{
+    display:flex;
+}*/
+.black{
+    background-color: #000000;
+    color:#ffffff;
+    font-weight:bolder;
+    padding: 2em 0;
+    list-style:none;
+    text-align: center;
+    margin: 4em 0;
+
+    width:100%;
+}
+
+footer .fn {
+    font-size: 0.625em; 
+} 
+footer .org {
+    font-size: 0.625em; 
+}   
+footer a{
+    font-size: 0.625em; 
+} 
